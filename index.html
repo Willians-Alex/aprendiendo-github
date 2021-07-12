@@ -16,6 +16,19 @@
 			width:400px;
 			background-color: red;
 		}
+
+		img#responsive{
+			display: none;
+		}
+		@media screen and (max-width:768px){
+			img{
+				display: none;
+			}
+			img#responsive {
+				display: block;
+			}
+
+		}
 	</style>
 </head>
 <body>
@@ -36,5 +49,7 @@
  <img src="covid.png">
  <p>cambio</p>
  <p>cambio denuevo</p>
+ <h1>Esta vaina es la Rama Responsive</h1>
+ <img src="radianes ejercicio 4.png" id="responsive">
 </body>
 </html>
